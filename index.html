@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>[Your Name] - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development course assignment portal by [Your Full Name].">
+    <meta name="author" content="[Your Full Name]">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <img src="images/profile.jpg" alt="Natalia Iakovleva" class="profile">
+        <h1>[Your Name]</h1>
+    </header>
+    <nav id="navigation">
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>WDD 230: Web Frontend Development</h1>
+        <section class="card">
+            <h2>Learning Activities</h2>
+            <ul></ul>
+        </section>
+        <section class="card">
+            <h2>Information</h2>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Natalia Iakovleva, Utah, USA</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
 </body>
 </html>
