@@ -9,8 +9,15 @@ header {
     background: #452a85;
     color: white;
     padding: 1rem;
-    text-align: center;
-}
+    text-align: center;}
+   
+    .name {
+        font-size: 35px;
+        font-weight: 500;
+
+    }
+    
+
  h2 {
     text-align: center;
     
@@ -42,6 +49,8 @@ nav a:hover {
     background-color: #927aa8;
 }
 
+
+
 main {
     max-width: 90%;
     margin: 1rem
@@ -65,3 +74,4 @@ position: relative;
 bottom: 0;
 width: 100%;
 }
+
