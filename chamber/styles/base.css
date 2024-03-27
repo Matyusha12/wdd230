@@ -1,0 +1,10 @@
+/* Base styling for your project */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, nav, main, footer {
+    padding: 1em;
+}
+
+/* Additional base styles */
