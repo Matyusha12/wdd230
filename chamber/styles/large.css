@@ -1,4 +1,4 @@
-/* Styling for larger screens */
-@media screen and (min-width: 768px) {
-    /* Styles for larger screens */
+/* Styles for larger devices */
+@media (min-width: 960px) {
+    /* Adjust styles for larger screens */
 }

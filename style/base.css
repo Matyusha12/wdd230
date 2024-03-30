@@ -1,95 +1,103 @@
-
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-style: normal;
     background-color: #fff;
-    color: #000;}
+    color: #000;
+}
 
-    .dark-mode body {
-        background-color: #333;
-        color: #fff;
-    }
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
 
-    #dark-mode-toggle {
-        cursor: pointer;
-    }
+#dark-mode-toggle {
+    cursor: pointer;
+}
+
 
 header {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: #452a85;
     color: white;
     padding: 1rem;
-    text-align: center;}
-   
-    .name {
-        font-size: 35px;
-        font-weight: 500;
-        margin-left: 20px;
-        
-    }
+}
+
+.name {
+    font-size: 35px;
+    font-weight: 500;
+
+}
+
 h1 {
     text-align: center;
 }
 
- h2 {
+h2 {
     text-align: center;
-    
- }
-nav {
-    background: #6b5d8d;
-}
- nav .active {
-    display: block;
- }
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
-nav li {
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
     padding: 0.5rem;
 }
 
-nav a {
+a {
     color: white;
     text-decoration: none;
     padding: 0.5rem;
 }
 
-nav a:hover {
+a:hover {
     background-color: #927aa8;
+}
+
+nav {
+    background: #6b5d8d;
 }
 
 main {
     max-width: 90%;
-    margin: 1rem
-    auto;
+    margin: 1rem auto;
 }
 
-
 .card {
-background: white;
-padding: 1rem;
-margin-bottom: 1rem;
-border-radius: 5px;
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
 }
 
 footer {
-background: #452a85;
-color: white;
-text-align: center;
-padding: 1rem;
-position: relative;
-bottom: 0;
-width: 100%;
+    background: #452a85;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
-#darkBtn
-{
-    position: absolute;
-   
+
+#dark-mode-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
 }
+
+#dark-mode-toggle img {
+    width: 24px;}

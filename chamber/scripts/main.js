@@ -1,2 +1,7 @@
-// Dynamically update the last modification date in the footer
-document.getElementById('lastModified').textContent = document.lastModified;
+// JavaScript to set the current year and the last modified date
+document.addEventListener('DOMContentLoaded', (event) => {
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+    document.getElementById('lastModified').textContent = document.lastModified;
+});
+
+

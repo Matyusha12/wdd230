@@ -3,51 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Natalia Iakovleva - WDD 230 - Web Frontend Development</title>
-    <meta name="description" content="Natalia Iakovleva-WDD 230 - Web Frontend Development- course assignment portal">
-    <meta name="author" content="Natalia Iakovleva">
-
-    <meta property="og:title" content="Natalia Iakovleva - WDD 230 - Web Frontend Development">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://saltlakeexpress.com/wp-content/uploads/sites/4/2017/03/logan-utah.jpg">
-    <meta property="og:url" content="https://matyusha12.github.io/wdd230/">
-
-    <link rel="stylesheet" href="style/base.css">
-    <link rel="stylesheet" href="style/larger.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>Logan Chamber of Commerce</title>
+    <meta name="description" content="The Logan Chamber of Commerce - facilitating business networking, community development, and economic growth.">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
     <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
     <header>
-        <h1>Welcome to the Chamber of Commerce</h1>
-        <!-- Navigation -->
+        <h1>Logan Chamber of Commerce</h1>
+        <<button class="hamburger" aria-label="Open menu">&#9776;</button>
+        <nav id="navigation">
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="week01/chamber-site-plan.html">Chamber</a></li>
+                <li><a href="chamber/index.html">Site Plan</a></li>
+                <li><a href="#">Form</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <!-- Navigation Menu -->
-    </nav>
     <main>
-        <section>
-            <!-- Hero Image -->
+        <section class="hero">
+            <img src="images/lhero-image.jpg" alt="Logan City View">
         </section>
-        <section>
-            <!-- Call to Action -->
+        <section class="call-to-action">
+            <h2>Join the Chamber</h2>
+            <p>Become a part of our vibrant business community today.</p>
+            <a href="#" class="cta-button">Join the Chabmer</a>
         </section>
-        <section>
-            <!-- Current Events -->
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li>Business Networking Luncheon - July 15</li>
+                <li>Entrepreneur Workshop - August 20</li>
+                <li>Annual Gala - September 10</li>
+            </ul>
         </section>
-        <section>
-            <!-- Weather Card -->
+        <section class="weather">
+            <h2>Local Weather</h2>
+            <p>Currently: Sunny, 75°F</p>
         </section>
-        <section>
-            <!-- Company Spotlights -->
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+            <div class="spotlight">
+                <h3>Logan's Bakery</h3>
+                <p>Delicious pastries and custom cakes since 1985.</p>
+            </div>
+            <div class="spotlight">
+                <h3>Green Thumb Nursery</h3>
+                <p>Your go-to place for gardening supplies and plants.</p>
+            </div>
         </section>
     </main>
     <footer>
-        <p>Contact information</p>
-        <p>Your Full Name - Project for WDD 230</p>
+        <p>Contact Us: info@logancc.org | (435) 555-0123</p>
+        <p>© <span id="currentYear"></span> Logan Chamber of Commerce, Logan UT</p>
         <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/main.js"></script>
 </body>
+</html>
