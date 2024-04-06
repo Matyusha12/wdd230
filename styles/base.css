@@ -1,3 +1,8 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -36,7 +41,11 @@ h1 {
 }
 
 h2 {
+    background-color: #452a85;
     text-align: center;
+    color: #fff;
+    display: block;
+    padding: .75rem;
 }
 
 .hamburger {
@@ -51,7 +60,7 @@ h2 {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     display: flex;
     justify-content: center;
 }
@@ -80,10 +89,14 @@ main {
 }
 
 .card {
+    margin: 1rem;
+    border: 1px solid #452a85;
     background: white;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0.75rem;
+    display: block;
+    text-align: center;
 }
 
 footer {
