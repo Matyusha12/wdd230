@@ -23,7 +23,7 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background: #452a85;
     color: white;
@@ -35,6 +35,7 @@ header {
     font-weight: 500;
 
 }
+
 
 h1 {
     text-align: center;
