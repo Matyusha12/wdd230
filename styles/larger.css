@@ -1,9 +1,4 @@
-@media screen and (min-width: 38rem) 
-{
-    .hamburger {
-        display: none;
-    }
-
+@media only screen and (min-width: 38rem) {
     nav ul {
         display: flex;
         justify-content: center;
@@ -23,20 +18,52 @@
        column-gap: 10px; 
        box-shadow: 1px 1px 10px black;
     }
-}
 
-@media (max-width: 768px) {
-    .hamburger {
-        display: block;
-    }
-
-    nav ul {
-        display: none;
-    }
-
-    nav.open ul {
+    ul.menuLinks {
         display: flex;
         flex-direction: column;
+        align-items: flex-end; 
+        position: absolute;
+        right: 2vw;
+        top: 100%; 
+        background-color: #6b5d8d;
+        padding: 0.5rem;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+        display: none; 
+    }
+
+    ul.menuLinks.open {
+        display: flex; 
+    }
+
+    ul.menuLinks a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5rem;
+    }
+
+    ul.menuLinks a:hover {
+        background-color: rgba(255, 255, 255, 0.2);
     }
 }
-  
+
+#myButton {
+    display: none;
+}
+
+@media only screen and (max-width: 38rem) {
+    #myButton {
+        display: block; 
+        font-size: 2rem;
+        background: none;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        width: 44px;
+        text-align: left;
+        padding: .25rem;
+        position: absolute;
+        right: 2vw;
+    }
+}
