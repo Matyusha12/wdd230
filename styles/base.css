@@ -62,7 +62,7 @@ ul {
     margin: 0;
     padding: 10px;
     display: flex;
-    justify-content: center;
+    
 }
 
 li {
@@ -95,7 +95,7 @@ main {
     border-radius: 10px;
     overflow: hidden;
     padding: 0.75rem;
-    display: block;
+    display: grid;
     text-align: center;
 }
 
