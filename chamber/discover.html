@@ -13,27 +13,23 @@
 
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="/styles/normalize.css">
     <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
     <header>
         <div class="header-content">
-            <img src="images/profile.jpg" alt="Natalia Iakovleva" class="profile">
             <h1 class="name">The Logan Chamber of Commerce</h1>
-            <button id="dark-mode-toggle" class="icon-button" aria-label="Toggle dark mode">
-                <img src="images/dark-theme.svg" alt="Toggle dark mode">
-            </button>
-            <button class="hamburger" aria-label="Open menu">&#9776;</button>
         </div>
     </header>
-    <nav id="navigation">
-        <ul>
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="week01/chamber-site-plan.html">Chamber</a></li>
-            <li><a href="chamber/index.html">Site Plan</a></li>
-            <li><a href="#">Form</a></li>
-        </ul>
+<nav id="animateme">
+    <button id="myButton"></button>
+    <ul class="menuLinks">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+    </ul>
     </nav>
     <main>
         <div class="content-container">
@@ -42,9 +38,20 @@
                 
             </aside>
             <div class="main-content">
-       
-                <img src="images/photo1.jpg" alt="Description of photo 1" loading="lazy">
-                <img src="images/photo2.jpg" alt="Description of photo 2" loading="lazy">
+
+                
+                <img src="images/canyon.jpg" alt="Logan canyon" width="500" height="250" loading="lazy">
+                
+                <img src="images/downtown.jpg" alt="Logan downtown" width="500" height="250" loading="lazy">
+            
+                <img src="images/hiking.jpg" alt="Logan trail" width="500" height="250" loading="lazy">
+                
+                <img src="images/mount.webp" alt="Mountains" width="500" height="250" loading="lazy">
+               
+                <img src="images/temple.webp" alt="Logan temple" width="500" height="250" loading="lazy">
+              
+                <img src="images/usu.jpg" alt="USU campus" width="500" height="250" loading="lazy">
+                
           
             </div>
         </div>
@@ -54,7 +61,7 @@
     <footer>
         <p>Contact Us: info@chamber.com | (435) 555-5555</p>
         <p>© <span id="currentYear"></span> Logan Chamber of Commerce, Logan UT</p>
-        <p>Last Modified: <span id="lastModified"></span></p>
+        <p><span id="lastModified"></span></p>
     </footer>
     <script src="scripts/main.js"></script>
 </body>
