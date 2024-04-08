@@ -125,16 +125,7 @@ ul.menuLinks.open{
 
 main {
     max-width: 90%;
-    margin: 1rem auto;
-
-    
-    main {
-        grid-template-areas:
-            "title"
-            "activities"
-            "info"
-            "hero";
-    }
+    margin: 1rem auto;  
 }
 
 .card {
