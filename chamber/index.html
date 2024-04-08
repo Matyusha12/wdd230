@@ -20,13 +20,9 @@
     <header>
         <div class="header-content">
             <h1 class="name">The Logan Chamber of Commerce</h1>
-            <button id="dark-mode-toggle" class="icon-button" aria-label="Toggle dark mode">
-                <img src="images/dark-theme.svg" alt="Toggle dark mode">
-            </button>
-            <button class="hamburger" aria-label="Open menu">&#9776;</button>
         </div>
     </header>
-<nav>
+<nav id="animateme">
     <button id="myButton"></button>
     <ul class="menuLinks">
         <li class="active"><a href="index.html">Home</a></li>
@@ -38,12 +34,13 @@
     <main>
         <section class="hero">
             <img src="images/lhero-image.jpg" alt="Logan City View">
+            <section class="call-to-action">
+                <h2>Join the Chamber</h2>
+                <p>Become a part of our vibrant business community today.</p>
+                <a href="#" class="cta-button">Join the Chamber</a>
+            </section>
         </section>
-        <section class="call-to-action">
-            <h2>Join the Chamber</h2>
-            <p>Become a part of our vibrant business community today.</p>
-            <a href="#" class="cta-button">Join the Chamber</a>
-        </section>
+        <div class="main-content">
         <section class="events">
             <h2>Upcoming Events</h2>
             <ul>
@@ -55,7 +52,6 @@
         <section class="weather">
             <h2>Local Weather</h2>
             <img src="images/sunny-weather.png" alt="weather">
-            
             <p>Currently: Sunny, 75°F</p>
         </section>
         <section class="spotlights">
@@ -69,11 +65,12 @@
                 <p>Your go-to place for gardening supplies and plants.</p>
             </div>
         </section>
+    </div>
     </main>
     <footer>
         <p>Contact Us: info@chamber.com | (435) 555-5555</p>
         <p>© <span id="currentYear"></span> Logan Chamber of Commerce, Logan UT</p>
-        <p>Last Modified: <span id="lastModified"></span></p>
+        <p><span id="lastModified"></span></p>
     </footer>
     <script src="scripts/main.js"></script>
 </body>

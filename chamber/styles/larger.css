@@ -1,25 +1,36 @@
+@media only screen and (min-width: 38rem) {
 
-@media (min-width: 960px) {
-}
-.hero {
-    position: relative;
-    background-image: url('images/hero-image.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 1%;
-    margin-right: 0%;
-    margin-left: 0%;
+    #myButton{
+        display: none;
+    }
+    
+    ul.menuLinks, ul.menuLinks.open{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+    ul.menuLinks a:hover {
+        background-color: rgba(255, 255,255, 0.2);
+    
+    }
+    
+    nav {
+        grid-template-rows: 1fr;
+    }
+    
+    }
+    .main-content {
+        display: grid;
+        grid-template-areas:
+            "hero hero hero"
+            "events weather spotlights";
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
 
-}
-
-.call-to-action {
-    position: absolute;
-    bottom: 20px;
-    background-color: rgba(56, 108, 128, 0.9); 
-    text-align: center;
-    color: rgb(181, 177, 172);
-    width: 50%; 
-    margin-bottom: 400px;
-    margin-right: 50px;
-    width: auto;
-}
+    .events, .weather, .spotlights {
+        margin: 0;
+    }
+    .hero {
+        grid-area: hero;
+    }

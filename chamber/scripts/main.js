@@ -1,21 +1,18 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-    const currentYearElement = document.getElementById('currentYear');
-    const lastModifiedElement = document.getElementById('lastModified');
-    const darkModeToggle = document.getElementById('dark-mode-toggle');
-    const hamburger = document.querySelector('.hamburger');
-    const navigation = document.getElementById('navigation');
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+    document.getElementById('lastModified').textContent = `Last Modified: ${document.lastModified}`;
+});
 
-    currentYearElement.textContent = new Date().getFullYear();
-    lastModifiedElement.textContent = document.lastModified;
+document.getElementById('dark-mode-toggle').addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+});
 
-    darkModeToggle.addEventListener('click', function() {
-        document.body.classList.toggle('dark-mode');
-    });
+const hamburgerElement = document.querySelector('#myButton');
+const navElement = document.querySelector('#animateme');
 
-    hamburger.addEventListener('click', () => {
-        navigation.classList.toggle('open');
-        hamburger.textContent = hamburger.textContent === '☰' ? '✖' : '☰';
-    });
+hamburgerElement.addEventListener('click', () => {
+    navElement.classList.toggle('open');
+    hamburgerElement.classList.toggle('open');
 });
 
 
