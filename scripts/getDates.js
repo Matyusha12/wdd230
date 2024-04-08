@@ -8,7 +8,7 @@ document.getElementById('dark-mode-toggle').addEventListener('click', function()
 });
 
 const hamburgerElement = document.querySelector('#myButton');
-const navElement = document.querySelector('#navigation');
+const navElement = document.querySelector('#animateme');
 
 hamburgerElement.addEventListener('click', () => {
     navElement.classList.toggle('open');
