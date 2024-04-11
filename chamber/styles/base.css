@@ -232,14 +232,27 @@ main {
     }
     
     form input[type="submit"] {
-        background-color: #166a6e; /* Green background */
-        color: white; /* White text */
-        padding: 12px 20px; /* Padding */
-        border: none; /* No border */
-        border-radius: 4px; /* Rounded borders */
-        cursor: pointer; /* Pointer cursor on hover */
+        background-color: #166a6e; 
+        color: white; 
+        padding: 12px 20px; 
+        border: none; 
+        border-radius: 4px; 
+        cursor: pointer; 
     }
     
     form input[type="submit"]:hover {
-        background-color: #1dc1c9; /* Darker shade of green */
-    }
+        background-color: #1dc1c9; }
+
+        #meet-greet-banner {
+            display: block;
+            height: 100px;
+            background-color: #479397;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }

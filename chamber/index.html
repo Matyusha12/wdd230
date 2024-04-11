@@ -22,14 +22,14 @@
             <h1 class="name">The Logan Chamber of Commerce</h1>
         </div>
     </header>
-<nav id="animateme">
-    <button id="myButton"></button>
-    <ul class="menuLinks">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="discover.html">Discover</a></li>
-        <li><a href="directory.html">Directory</a></li>
-        <li><a href="join.html">Join</a></li>
-    </ul>
+    <nav id="animateme">
+        <button id="myButton"></button>
+        <ul class="menuLinks">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
     </nav>
     <main>
         <section class="hero">
@@ -41,31 +41,47 @@
             </section>
         </section>
         <div class="main-content">
-        <section class="events">
-            <h2>Upcoming Events</h2>
-            <ul>
-                <li>Business Networking Luncheon - July 15</li>
-                <li>Entrepreneur Workshop - August 20</li>
-                <li>Annual Gala - September 10</li>
-            </ul>
-        </section>
-        <section class="weather">
-            <h2>Local Weather</h2>
-            <img src="images/sunny-weather.png" alt="weather">
-            <p>Currently: Sunny, 75°F</p>
-        </section>
-        <section class="spotlights">
-            <h2>Member Spotlights</h2>
-            <div class="spotlight">
-                <h3>Logan's Bakery</h3>
-                <p>Delicious pastries and custom cakes since 1985.</p>
-            </div>
-            <div class="spotlight">
-                <h3>Green Thumb Nursery</h3>
-                <p>Your go-to place for gardening supplies and plants.</p>
-            </div>
-        </section>
-    </div>
+            <section class="events">
+                <h2>Upcoming Events</h2>
+                <ul>
+                    <li>Business Networking Luncheon - July 15</li>
+                    <li>Entrepreneur Workshop - August 20</li>
+                    <li>Annual Gala - September 10</li>
+                </ul>
+            </section>
+            <section class="weather">
+                <h2>Local Weather</h2>
+                <p id="current-temperature">Loading temperature...</p>
+                <p id="current-weather-description">Loading weather description...</p>
+                <div id="forecast-container">
+                    <div class="forecast-day" id="forecast-day-1">
+                        <p class="forecast-date">Loading date...</p>
+                        <p class="forecast-temp">Loading temperature...</p>
+                        <p class="forecast-weather">Loading weather...</p>
+                    </div>
+                    <div class="forecast-day" id="forecast-day-2">
+                        <p class="forecast-date">Loading date...</p>
+                        <p class="forecast-temp">Loading temperature...</p>
+                        <p class="forecast-weather">Loading weather...</p>
+                    </div>
+                    <div class="forecast-day" id="forecast-day-3">
+                        <p class="forecast-date">Loading date...</p>
+                        <p class="forecast-temp">Loading temperature...</p>
+                        <p class="forecast-weather">Loading weather...</p>
+                    </div>
+                </div>
+            </section>
+            <section class="spotlights">
+                <h2>Member Spotlights</h2>
+                <div id="spotlight-container">
+                    
+                </div>
+            </section>
+        </div>
+        <div id="meet-greet-banner" style="display: none;">
+            <p>Join us for a Meet and Greet on Wednesday at 7:00 p.m.</p>
+            <button onclick="closeBanner()">Close</button>
+        </div>
     </main>
     <footer>
         <p>Contact Us: info@chamber.com | (435) 555-5555</p>
