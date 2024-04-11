@@ -1,7 +1,7 @@
 [
     {
         "name": "Tech Innovations",
-        "address": "456 Westheaven Dr, Logan, UT, 84321",
+        "address": "456 Westhaven Dr, Logan, UT, 84321",
         "phone": "555-123-4567",
         "website": "https://www.techinnovations.com",
         "image": "techinnovations.png",
@@ -28,7 +28,7 @@
     },
     {
         "name": "Healthy Living Wellness Center",
-        "address": "500 S 50 W,Logan, UT, 84341",
+        "address": "500 W 50 N, Logan, UT, 84341",
         "phone": "555-456-7890",
         "website": "https://www.healthylivingwellness.com",
         "image": "healthyliving.png",
@@ -46,7 +46,7 @@
     },
     {
         "name": "Creative Minds Agency",
-        "address": "1000 S 50 N, Logan, UT, 84321",
+        "address": "1000 E 50 N, Logan, UT, 84321",
         "phone": "555-678-9012",
         "website": "https://www.creativemindsagency.com",
         "image": "creativeminds.png",
