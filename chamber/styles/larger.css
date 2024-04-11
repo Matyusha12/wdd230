@@ -26,6 +26,7 @@
             "events weather spotlights";
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
+        margin-top: 200px;
     }
 
     .events, .weather, .spotlights {
