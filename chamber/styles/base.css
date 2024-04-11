@@ -30,7 +30,7 @@ h2 {
     color: #fff;
     display: block;
     padding: .75rem;
-    margin-top: 400px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -58,7 +58,7 @@ nav {
 }
 
 nav ul {
-    overflow: hidden;
+    overflow: auto;
 }
 
 nav.open {
@@ -180,3 +180,27 @@ main {
     p{
         padding-left: 20px;
     }
+
+    .grid-view .member {
+        display: inline-block;
+        width: calc(33.333% - 20px);
+        margin: 10px;
+    }
+    
+    .list-view .member {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+      
+    }
+    
+    .member img {
+        width: 100px; 
+        height: auto; 
+    }
+    
+    .member {
+        text-align: center; 
+        margin-top: 10px;
+    }
+    

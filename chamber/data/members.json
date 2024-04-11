@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Tech Innovations",
+        "address": "456 Westheaven Dr, Logan, UT, 84321",
+        "phone": "555-123-4567",
+        "website": "https://www.techinnovations.com",
+        "image": "techinnovations.png",
+        "membershipLevel": "Platinum",
+        "otherInfo": "Leading the way in tech advancements"
+    },
+    {
+        "name": "Green Gardens",
+        "address": "625 W 200 N, Logan, UT, 84321",
+        "phone": "555-234-5678",
+        "website": "https://www.greengardens.com",
+        "image": "greengardens.png",
+        "membershipLevel": "Gold",
+        "otherInfo": "Sustainable gardening solutions"
+    },
+    {
+        "name": "Bright Futures Education",
+        "address": "250 W 100 E, Logan, UT, 84321",
+        "phone": "555-345-6789",
+        "website": "https://www.brightfuturesedu.com",
+        "image": "brightfutures.png",
+        "membershipLevel": "Silver",
+        "otherInfo": "Empowering the next generation"
+    },
+    {
+        "name": "Healthy Living Wellness Center",
+        "address": "500 S 50 W,Logan, UT, 84341",
+        "phone": "555-456-7890",
+        "website": "https://www.healthylivingwellness.com",
+        "image": "healthyliving.png",
+        "membershipLevel": "Bronze",
+        "otherInfo": "Your partner in health and wellness"
+    },
+    {
+        "name": "Adventure Outdoors",
+        "address": "625 N 200 W, Logan, Ut, 84321",
+        "phone": "555-567-8901",
+        "website": "https://www.adventureoutdoors.com",
+        "image": "adventureoutdoors.png",
+        "membershipLevel": "Gold",
+        "otherInfo": "Explore the great outdoors with us"
+    },
+    {
+        "name": "Creative Minds Agency",
+        "address": "1000 S 50 N, Logan, UT, 84321",
+        "phone": "555-678-9012",
+        "website": "https://www.creativemindsagency.com",
+        "image": "creativeminds.png",
+        "membershipLevel": "Platinum",
+        "otherInfo": "Innovative design and marketing solutions"
+    }
+]
+
